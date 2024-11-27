@@ -1,8 +1,11 @@
 body{
+    background-color: black;
     background-image: url(../img/fundo.png);
-}
+    text-align: center;
+    text-shadow: none;
+}   
 .top{
-    margin-top:-18px;  
+    margin-top: -18px;  
     background-color: red;
     width:66%;
     height:100px;
@@ -25,13 +28,15 @@ body{
 }
 .top h3{
     margin-top: -8px;
-    justify-content: center;
     text-decoration: none;
+    text-align: center;
+    color: white;
+    font: bold 27.14px Arial, Helvetica;
 }
 #kerb1{
     position: absolute;
     top:-10px;
-    left:5%;
+    left: 5%;
     transform: rotate(345deg);
     width:200px;
 }
@@ -42,18 +47,28 @@ body{
     width: 190px;
     transform: rotate(20deg);
 }
-.first{
-    margin-top: 100px;
+footer{
+    color: white;
 }
-.box{
-    display: block;
-    justify-content: center;
-    justify-items: center;
-    width:72%;
-    margin-left: 14%;
-    margin-bottom: 30px;
-    color: yellow;
+nav{
+    margin-left: -70px;
+    word-spacing: 5px;
+}
+nav a{
     font: bold 18px Arial, Helvetica;
-    letter-spacing:0.05cm;
-    word-spacing: 0.075cm;
+    text-decoration: none;
+    color: white;
+    letter-spacing: normal;
+    font-size: 2em;
+}
+.navbar{
+    margin-top:22px;
+    display: flex;
+    justify-content: center;
+    gap:200px;
+}
+#princ-img{
+    width: 45%;
+    margin-left: 2.5%;
+    margin-top: 13.5%;
 }
