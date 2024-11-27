@@ -1,0 +1,99 @@
+body{
+    background-image: url(../img/fundo.png);
+}
+#back{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 0px;
+    height: 30px;
+}
+.topel{
+    background-color: red;
+    width:823px;
+    height: 100px;
+    margin-left:212px;
+    margin-top:-18px;
+    border-radius: 4px;
+}
+.topel a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font: bold 1.45em Arial, Helvetica;
+}
+.topel h1{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    font-size: 1.2em;
+    font: bold 39px Arial, Helvetica;
+}
+.topel h3{
+    margin-top: -8px;
+    justify-content: center;
+    text-decoration: none;
+}
+.top{
+    margin-top:-18px;  
+    background-color: red;
+    width:66%;
+    height:100px;
+    margin-left: 17%;
+    border-radius: 4px;
+}
+.top a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font: bold 1.45em Arial, Helvetica;
+}
+.top h1{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    font-size: 1.2em;
+    font: bold 39px Arial, Helvetica;
+}
+.top h3{
+    margin-top: -8px;
+    justify-content: center;
+    text-decoration: none;
+}
+.conf{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+    width: 180px;
+    height: 300px;
+    color: yellow;
+    font: bold 18px Arial, Helvetica;
+}
+#planet{
+    height: 180px;
+}
+.box_lateral{
+    width: 70%;
+    margin-top: 30px;
+    margin-left:280px;
+    height: 440px;
+    color: yellow;
+    font: bold 18px Arial, Helvetica;
+    letter-spacing:0.05cm;
+    word-spacing: 0.075cm;
+}
+.box{
+    display: block;
+    justify-content: center;
+    justify-items: center;
+    width:72%;
+    margin-left: 14%;
+    margin-bottom: 30px;
+    color: yellow;
+    font: bold 18px Arial, Helvetica;
+    letter-spacing:0.05cm;
+    word-spacing: 0.075cm;
+}
