@@ -31,14 +31,14 @@ body{
 #kerb1{
     position: absolute;
     top:-10px;
-    left:4%;
+    left:3%;
     transform: rotate(345deg);
     width:200px;
 }
 #kerb2{
     position: absolute;
     top:0px;
-    left: 170vb;
+    left: 180vb;
     width: 190px;
     transform: rotate(20deg);
 }
